@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.avif" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vaegy</title>
+  </head>
+  <body>
+    <!-- 1-header -->
+    
+    <header class="header">
+      <div class="container-fluid nav-bar" id="sticky-navbar">
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand-lg py-4">
+                <a href="home.html" class="navbar-brand">
+                    <img src="images/logo.webp" alt="main-logo" class="navbar-brand-img">
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                      <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a href="index.html" target="_self" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="about.html" target="_self" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="product1.html" target="_self" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="Blogs-Page.html" target="_self" class="nav-link">Blogs</a></li>
+                        <li class="nav-item"><a href="contact us.html" target="_self" class="nav-link">Contact</a></li>
+                    </ul>
+                    </div>
+                    <div class="nav-icons">
+                      <i class="bx bx-search-alt" id="search-icon"></i>
+                      <a href="Login.html"><i class='bx bx-user'></i></a>
+                      <a href="product1.html"><i class='bx bx-heart' ></i></a>
+                      <a href="product1.html"><i class='bx bx-cart' ></i></a>
+                    </div>
+                    <div id="search-container" class="search-container">
+                      <input type="text" id="search-field" placeholder="Search..." class="search-input">
+                      <i class="bx bx-search search-submit" id="search-submit"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    
+
+<!-- scroll up button -->
+<div class="icon-top">
+  <div class="btn-scroll-up" id="scrollUp" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"><i class="fa-regular fa-hand-point-up"></i></div>
+  <!-- <a href="#home" id="scrollUp"><i class='bx bxs-chevrons-up' ></i></a> -->
+</div>
+<!-- end header section -->
+<!-- 2- hero (main section) -->
+<section class="hero-section">
+  <div class="swiper-container" style="overflow-x: hidden;">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide main-img">
+        <img src="images/s1.webp" class="d-block w-100" alt="Image 1">
+        <div class="banner-txt">
+          <h4>Quality Assurance!</h4>
+          <h3>Organic Food</h3>
+          <a href="#" class="shop-btn">Shop Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide main-img">
+        <img src="images/s4.webp" class="d-block w-100" alt="Image 2">
+        <div class="banner-txt">
+          <h4>Discount 50%</h4>
+          <h3>Fresh Products</h3>
+          <p>Order now and have your products delivered</p>
+          <a href="#" class="shop-btn">Shop Now</a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+  <!-- start about us section one-->
+  <section class="about-us">
+    <h2> <span>About </span> us</h2>
+  <div class="sectionOne">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center my-5">
+            <div class="content col-lg-6 col-md-6 col-sm-12">
+                <h3>Fashion Style
+                    <br>
+                    Love From Our Passion</h3>
+                <p>Suspendisse non nisl sit amet velit hendrerit rutrum. Nulla porta dolor. Nunc interdum lacus sit amet orci. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                <p class="p2">Maecenas egestas arcu quis ligula mattis placerat. Quisque id mi. Sed a libero. Vestibulum ullamcorper mauris at ligula. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+            </div>
+            <div class="image col-lg-6 col-md-6 col-sm-12">
+                <img class="img-fluid" src="images/about2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Revolutionary py-5 m-auto text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 content">
+        <h2 class="mb-4">Revolutionary Inclusivity</h2>
+        <p>Suspendisse non nisl sit amet velit hendrerit rutrum. Nulla porta dolor. Nunc interdum lacus sit amet orci. Donec orci lectus, aliquam ut faucibus non, euismod id, nulla. Etiam sit amet orci eget eros faucibus tincidunt.Maecenas egestas arcu quis ligula mattis placerat. Quisque id mi. Sed a libero. Vestibulum ullamcorper mauris at ligula. Aenean posuere, tortor sed cursus feugiat,</p>
+        <div class="button-wrapper">
+          <a href="product1.html">EXPLORE OUR PRODUCT</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end about us section  -->
+
+
+<!-- 4 services section -->
+<section class="services-section" id="services">
+  <h2>Our <span>Services</span></h2>
+    <!-- start section -->
+    <div class="services py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 box">
+            <div class="item">
+              <div class="img">
+                <img class="img-fluid" src="images/ba4.webp" alt="service-image">
+              </div>
+              <div class="content">
+                <div class="info">
+                  <a class="title" href="#">Cherry tomato</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 box box-center">
+            <div class="item">
+              <div class="img">
+                <img class="img-fluid" src="images/ba5.jpg" alt="service-image">
+              </div>
+              <div class="content">
+                <div class="info">
+                  <a class="title" href="#">Cherry tomato</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 box">
+            <div class="item">
+              <div class="img">
+                <img class="img-fluid" src="images/ba6.jpg" alt="service-image">
+              </div>
+              <div class="content">
+                <div class="info">
+                  <a class="title" href="#">Cherry tomato</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end section  -->
+<div class="services-two py-5 my-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 box">
+        <div class="box-services"></div>
+        <div class="number">
+          <img src="images/ser1.png" alt="service-image">
+        </div>
+        <div class="info">
+          <h4 class="title">DELIVERY ON TIME</h4>
+          <P>Definition and measurement</P>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 box">
+        <div class="box-services"></div>
+        <div class="number">
+          <img src="images/ser2.webp" alt="service-image">
+        </div>
+        <div class="info">
+          <h4 class="title">FREE SHOPPING</h4>
+          <P>For all order over $99</P>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 box">
+        <div class="box-services"></div>
+        <div class="number">
+          <img src="images/ser3.webp" alt="service-image">
+        </div>
+        <div class="info">
+          <h4 class="title">SECURE PAMENT</h4>
+          <P>100% secure payment</P>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end services section -->
+    <!-- products section -->
+    <section class="products">
+      <h2>Frish <span>Products</span></h2>
+      <div class="container">
+        <div class="row py-4" style="width: 100%">
+          <div class="col-12 product" id="right">
+            <div class="row mb-2">
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-medium color-yellow"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/one.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Onion <br /><span class="text-success">5.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-xlarge color-green"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/two.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Broccoli <br /><span class="text-success">8.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-medium color-red"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/three.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Tomato <br /><span class="text-success">3.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-xxlarge color-gray"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/four.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Potato <br /><span class="text-success">6.00$</span>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-xxlarge color color-green"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/five.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Cabbage <br /><span class="text-success">10.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-11-20 size-small color-yellow"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/six.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Carrot <br /><span class="text-success">12.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-11-20 size-large color-green"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/seven.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Cabbage <br /><span class="text-success">13.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-medium color-blue"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/eight.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Eggplant <br /><span class="text-success">7.00$</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-small color-blue"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/nine.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Onion <br /><span class="text-success">10.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-11-20 size-small color-gray"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/ten.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Garlic <br /><span class="text-success">15.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-small color-yellow"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/onee.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  Lemon <br /><span
+                    class="text-success text-decoration-line-through opacity-50 me-1"
+                    >9.00$</span
+                  ><span class="">7.00$</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-md-3 col-lg-3 price-5-10 size-medium color-red"
+              >
+                <div class="hover-icon-center">
+                  <img src="images/twoo.png.jpg" alt="product-image" />
+                  <div class="popup opacity-0">
+                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="product1.html"><i class="fa-regular fa-heart"></i></a>
+                  </div>
+                </div>
+                <div class="text-center fw-bolder">
+                  tomatoes <br />
+                  <span class="text-success">9.00$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- end products section -->
+
+
+<!-- blogs section -->
+
+ <!-- Blogs Section Starts -->
+ <section id="blogs" class="blogs">
+  <div class="text-center">
+    <h2>Our <span>Blogs</span> </h2>
+  </div>
+  <p id="p1" class="text-center">
+    A collection of stories about the people andplaces we admire.
+  </p>
+  <div class="container">
+    <div id="r" class="row"></div>
+  </div>
+</section>
+
+
+<!-- end plogs section -->
+
+<!-- contact us section -->
+<section class="contact-us">
+  <h2> <span>contact</span> Us</h2>
+<div class="middle">
+  <div class="form">
+    <h2 class="form-title">Send Us A Message</h2>
+    <form>
+      <input type="text" placeholder="Your name..." class="txt" />
+      <input type="text" placeholder="your mail" class="txt" />
+      <textarea class="txt-area" placeholder="your message" rows="4" cols="100"></textarea>
+      <button class="send-btn">Send</button>
+    </form>
+  </div>
+</div>
+<div class="bottom">
+  <div class="p2">
+    <img src="resources/mail2.png" width="70" height="50" />
+    <h3>
+      SIGN UP <br />
+      FOR NEW SETTLER
+    </h3>
+  </div>
+  <div class="p3">
+    <p>Subscribe to the weekly newsletter for all the latest updates</p>
+    <div class="Subscribe">
+    <input
+      type="text"
+      placeholder="your email address..."
+      class="bottom-txt"
+    />
+    <button type="submit" class="submit-btn">SUBMIT</button>
+  </div>
+  </div>
+</div>
+</section>
+<!-- end contact us section -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 logo-column">
+            <a href="#"
+              ><img
+                src="images/logo.webp"
+                width="170px"
+                height="70px"
+                class="logo-footer"
+            /></a>
+            <p id="p-footer">
+              Sophisticated simplicity for the <br />
+              independent mind.
+            </p>
+            <ul class="list-inline socials">
+              <li class="list-inline-item">
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-dribbble"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-behance"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h4>Help & Information</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Products Return</a></li>
+              <li><a href="#">Wholesale Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Pagination</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Home Page</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Menu Items</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Address Store</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Home Page</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright 2023 | design by <span>Vaegy Team</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/datafromjson.js"></script>
+    <script src="/js/db.json"></script>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+div .map{
+    height: 300px;
+    border: 2px solid black;
+}
+.contact-wrap{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.p1{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-evenly;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.p1 h1{
+    padding-bottom:20px;
+}
+.p1 a{
+    text-decoration: none;
+    margin:10px;
+    color: #28a745;
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: start;
+    padding-left: 30px;
+}
+.location h3{
+    padding-left:50px ;
+   
+}
+.location2 p{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+    padding-left: 90px;
+    color:#6c757d;
+    font-size: 14px;
+}
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.phone h3{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.phone2 p{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+    padding-top: 10px;;
+    padding-left: 90px;
+    color:#6c757d;
+    font-size: 14px;
+}
+.mail{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.mail h3{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.mail2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+    padding-top: 20px;;
+    padding-left: 90px;
+    color:#6c757d;
+    font-size: 14px;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.clock h3{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.clock2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+    padding-top: 20px;;
+    padding-left: 90px;
+    color:#6c757d;
+    font-size: 14px;
+}
+.form-title{
+    margin-bottom:20px;
+}
+.form{
+   align-items: end;
+   padding-top: 50px;
+   padding-right: 20px;
+   padding-left: 20px;
+   width: 50%
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:start ;
+    padding-left: 10px;;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    font-size: 10px;
+}
+.txt-area{
+    padding: 10px 20px;
+    height: 260px;
+    margin-bottom:20px ;
+}
+button {
+    margin: 0;
+    height: 55px;
+    background-color: #000;
+    line-height: 32px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 600;
+    transition: .3s;
+}
+   button:hover {
+    color: #fff;
+    background-color: #28a745;
+}
+    .bottom{
+        display: flex;
+        border-top:1px solid #d3d7da;
+        width: 100%;
+    }
+.p2{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
+    border-right: 1px solid #d3d7da;
+   }
+   .p2 img{
+    margin-right:30px;
+   }
+   .p3{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+   }
+   .p3 p{
+    font-size: 14px;
+    margin: 10px;
+   }
+    .bottom-txt{
+        width: 330px;
+        height: 50px;
+        padding-left: 10px;
+        border: none;
+        background-color: #e1e2e2;
+    }
+    .btn{
+    width: 170px;
+    height: 50px;
+    border: 0;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    background-color: #000;
+    line-height: 32px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: .3s;
+    }
+@media only screen and (max-width:800px){
+    .form{
+        width: 100%;
+        height: 90%;
+    }
+    .contact-wrap{
+        width: 100%;
+        height: 90%;
+    }
+    .p1{
+        width: 90%;
+        height: 90%;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .p3{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
+
+
+
+
+
+
+
+
+

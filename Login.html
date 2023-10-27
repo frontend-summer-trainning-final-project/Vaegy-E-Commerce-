@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaegy-Login</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.avif" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div>
+      <div class="login-container">
+        <img src="images/logo.webp" alt="Vaegy Logo" />
+        <h3>Great to have you back!</h3>
+        <form id="loginForm">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button class="loginBtn" type="submit">Log in</button>
+          <div class="No-account">
+            <p>Don’t have an account ?</p>
+            <a href="Register.html"> <span> Register now</span></a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Login.js"></script>
+  </body>
+</html>

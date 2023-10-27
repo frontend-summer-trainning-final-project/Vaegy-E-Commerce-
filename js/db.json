@@ -1,0 +1,60 @@
+{
+  "BlogsSectionCards": [
+    {
+      "image-path": "/images/blog3_1024x1024.webp",
+      "Card-title": "the most useful things for you",
+      "date": "july 17, 2023",
+      "card-paragraph": "What is your favorite non-premium designer bag? I got my first premium designer bag when I was in middle school. It was something I wished..."
+    },
+    {
+      "image-path": "/images/blog4_1024x1024.webp",
+      "Card-title": "what we need to know",
+      "date": "july 17, 2023",
+      "card-paragraph": "What is your favorite non-premium designer bag? I got my first premium designer bag when I was in middle school. It was something I wished..."
+    },
+    {
+      "image-path": "/images/blog6_1024x1024.webp",
+      "Card-title": "latest news are on top",
+      "date": "july 17, 2023",
+      "card-paragraph": "What is your favorite non-premium designer bag? I got my first premium designer bag when I was in middle school. It was something I wished..."
+    }
+  ],
+
+
+
+
+
+  "footer":{"@class":"footer","div":{"@class":"container","div":[{"@class":"row","div":[{"@class":"col-md-3logo-column","a":{"@href":"#","img":{"@src":"images/logo.webp","@width":"170px","@height":"70px","@class":"logo-footer"}},"p":{"@id":"p-footer","br":"","#text":["Sophisticatedsimplicityforthe","independentmind."]},"ul":{"@class":"list-inlinesocials","li":[{"@class":"list-inline-item","i":{"@class":"fa-brandsfa-twitter"}},{"@class":"list-inline-item","i":{"@class":"fa-brandsfa-instagram"}},{"@class":"list-inline-item","i":{"@class":"fa-brandsfa-dribbble"}},{"@class":"list-inline-item","i":{"@class":"fa-brandsfa-behance"}}]}},{"@class":"col-md-3","h4":"Help&Information","ul":{"li":[{"a":{"@href":"#","#text":"AboutUs"}},{"a":{"@href":"#","#text":"PrivacyPolicy"}},{"a":{"@href":"#","#text":"Terms&Conditions"}},{"a":{"@href":"#","#text":"ProductsReturn"}},{"a":{"@href":"#","#text":"WholesalePolicy"}}]}},{"@class":"col-md-3","h4":"AboutUs","ul":{"li":[{"a":{"@href":"#","#text":"Pagination"}},{"a":{"@href":"#","#text":"Terms&Conditions"}},{"a":{"@href":"#","#text":"Contact"}},{"a":{"@href":"#","#text":"Accessories"}},{"a":{"@href":"#","#text":"HomePage"}}]}},{"@class":"col-md-3","h4":"Categories","ul":{"li":[{"a":{"@href":"#","#text":"MenuItems"}},{"a":{"@href":"#","#text":"HelpCenter"}},{"a":{"@href":"#","#text":"AddressStore"}},{"a":{"@href":"#","#text":"PrivacyPolicy"}},{"a":{"@href":"#","#text":"HomePage"}}]}}]},{"@class":"copyright","p":{"span":"VaegyTeam","#text":"Copyright2023|designby"}}]}}
+  
+  
+  
+  
+  
+  
+
+    
+
+
+    
+  }
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+  
+  
+
+
+
+
+
